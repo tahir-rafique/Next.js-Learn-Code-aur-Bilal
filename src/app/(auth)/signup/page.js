@@ -1,6 +1,6 @@
 export default function SignUp() {
     return (
-        <div>
+        <div className="p-10">
             SignUp Page.
         </div>
     )
