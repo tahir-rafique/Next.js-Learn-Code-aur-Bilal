@@ -1,22 +1,23 @@
-// meta data:
-
 import QuoteCard from "@/components/QuoteCard";
 import Link from "next/link";
 
+// meta data:
 export const metadata = {
     title: "Quotes",
 }
 
-
-
 //  Main code:
 const Quotes = async () => {
-    let quotes = await fetch("https://dummyjson.com/quotes");
+    let quotes = await fetch("https://dummyjson.com/quotes/", {
+        cache: 'no-cache',
+        // revalidate: 700,
+    });
+
     quotes = await quotes.json();
-
-    console.log('Quotes=>..........', quotes);
-
     const allQuotes = quotes.quotes;
+    // console.log('Quotes=>..........', quotes);
+    // const totalQuotes = quotes.total;
+    // console.log(allQuotes, 'This is the total number of quotes.............');
     return (
         <div className="p-10">
             <h1 className="font-bold text-2xl text-center">Quotes</h1>
@@ -30,8 +31,6 @@ const Quotes = async () => {
 }
 
 export default Quotes;
-
-
 
 
 
