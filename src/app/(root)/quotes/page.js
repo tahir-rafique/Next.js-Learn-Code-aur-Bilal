@@ -13,6 +13,11 @@ const Quotes = async () => {
         // revalidate: 700,
     });
 
+    // .ok kisi bee API sy object milta hai
+    if (!quotes.ok) {
+        throw new Error('Api not working')
+    }
+
     quotes = await quotes.json();
     const allQuotes = quotes.quotes;
     // console.log('Quotes=>..........', quotes);

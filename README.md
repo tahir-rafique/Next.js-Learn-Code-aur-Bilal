@@ -11,3 +11,5 @@
    ----> Client-Side : useEffect
 8. Loading UI & Handling Cache in Fetch API ✅
 9. Custom not-found-page/404 Error ✅
+10. Server Actions : (CREATE GET & POST apis)
+    ---> Build a small TODO APP with API-integration.
