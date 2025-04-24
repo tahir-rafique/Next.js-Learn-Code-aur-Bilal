@@ -6,10 +6,12 @@
 4. Dynamic Routing ❌✅
 5. Group Routing ✅
 6. Layout - Custom Layout ✅
-7. Fetching Data, Fetch API in Next.js ✅
+7. Custom not-found-page/404 Error ✅
+8. Fetching Data, Fetch API in Next.js ✅
    ----> Server-Side : aysnc/await
    ----> Client-Side : useEffect
-8. Loading UI & Handling Cache in Fetch API ✅
-9. Custom not-found-page/404 Error ✅
-10. Server Actions : (CREATE GET & POST apis)
+9. Loading UI & Handling Cache in Fetch API ✅
+10. Error Handling error.js ✅
+
+11. Server Actions : (CREATE GET & POST apis) ✅
     ---> Build a small TODO APP with API-integration.
