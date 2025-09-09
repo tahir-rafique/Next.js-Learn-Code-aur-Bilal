@@ -1,4 +1,4 @@
-### Learn Next.js with Tahir.
+### Learn Next.js with Bilal
 
 1. Next.js intro ✅
 2. folder structure, Hello World! ✅
